@@ -1,0 +1,1 @@
+cmd_/home/de2i-150/Desktop/ihs-project-layout-dev-grp-ohbf/driver/pci/Module.symvers := sed 's/\.ko$$/\.o/' /home/de2i-150/Desktop/ihs-project-layout-dev-grp-ohbf/driver/pci/modules.order | scripts/mod/modpost    -o /home/de2i-150/Desktop/ihs-project-layout-dev-grp-ohbf/driver/pci/Module.symvers -e -i Module.symvers   -T -
